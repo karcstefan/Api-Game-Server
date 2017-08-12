@@ -1,0 +1,10 @@
+{
+	"name": "api-game",
+	"version": "0.0.1",
+	"scripts": {
+		"build": "babel src -d src/public/lib"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.0.0"
+	}
+}
