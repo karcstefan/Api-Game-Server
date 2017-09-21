@@ -5,11 +5,10 @@ class Game {
 
 	canvasSetup() {
     	this.socket = io();
-	console.log(1);
 
 		this.canvas = document.getElementById("main"),
 		this.ctx = this.canvas.getContext("2d");
-
+		console.log(canvas);
 		this.canvas.width = window.innerWidth;
 		this.canvas.height = window.innerHeight;
 	}
@@ -17,6 +16,5 @@ class Game {
 }
 
 window.onload = function () {
-	console.log(2);
 	new Game;
 }
