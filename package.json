@@ -2,7 +2,8 @@
   "name": "api-game",
   "version": "0.0.1",
   "scripts": {
-    "build": "babel src/*.js -d src/public/lib"
+    "build": "babel src/*.js -d src/public/lib",
+    "start": "node server.js"
   },
   "devDependencies": {
     "babel-cli": "^6.0.0"
