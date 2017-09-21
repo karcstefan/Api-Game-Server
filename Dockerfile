@@ -1,5 +1,5 @@
 FROM node:boron
-WORKDIR /usr/src/app
+WORKDIR /usr/src/server
 COPY package.json .
 RUN npm install
 COPY src/ .
